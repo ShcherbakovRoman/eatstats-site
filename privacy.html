@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EatStats — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; line-height: 1.65;
+  }
+  a { color: #0a7d5b; }
+  h2 { margin-top: 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  .updated { opacity: .7; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: <!-- UPDATE THIS DATE WHEN YOU PUBLISH -->September 2026</p>
+
+<p>EatStats ("the app") is an independent iOS app for tracking food and macronutrients.
+This policy explains what the app collects, why, and who it is shared with. Questions:
+<a href="mailto:eatstats.support@gmail.com">eatstats.support@gmail.com</a>.</p>
+
+<h2>What we collect</h2>
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Email address and password</strong></td>
+    <td>To create your account and sign you in. Passwords are stored hashed by our
+        authentication provider; we never see them.</td>
+  </tr>
+  <tr>
+    <td><strong>Profile details</strong> — display name, sex, year of birth, height,
+        weight, activity level, goal direction, and your daily calorie and macro targets</td>
+    <td>To calculate and grade your daily targets. You enter these yourself and can
+        change them at any time in Settings.</td>
+  </tr>
+  <tr>
+    <td><strong>Food logs</strong> — what you logged, the meal, the date, and the
+        calorie and macro values</td>
+    <td>The core function of the app: showing your day, your history, and your grades.</td>
+  </tr>
+  <tr>
+    <td><strong>Saved foods</strong></td>
+    <td>Your bookmarked items, so they can be re-added quickly.</td>
+  </tr>
+  <tr>
+    <td><strong>Usage counts</strong> — how many AI estimates you have run today</td>
+    <td>To enforce daily limits fairly across plans.</td>
+  </tr>
+  <tr>
+    <td><strong>Estimate diagnostics</strong> — the normalized text of the food
+        descriptions you submit, plus timing and outcome of each estimate</td>
+    <td>To measure accuracy, improve matching, and detect failures. See
+        "Food descriptions" below.</td>
+  </tr>
+</table>
+
+<p>We do <strong>not</strong> collect your contacts, location, browsing activity,
+advertising identifiers, or health data from Apple Health.</p>
+
+<h2>Food descriptions and photos</h2>
+<p>When you describe a food in text, that description is sent to our server and, if it
+cannot be matched to a known food, on to Google's Gemini AI service to be estimated.
+The normalized text of these descriptions is stored alongside the result so we can
+review accuracy. Please avoid typing personal or sensitive information into the food
+description field.</p>
+
+<p>When you use a photo estimate, the photo is sent to our server and forwarded to
+Google's Gemini AI service for analysis. <strong>Photos are not stored</strong> by
+EatStats — they are used only to produce that single estimate and then discarded.</p>
+
+<h2>Who your data is shared with</h2>
+<ul>
+  <li><strong>Supabase</strong> — hosts our database, authentication, and server
+      functions. Your account and logs are stored there.</li>
+  <li><strong>Google (Gemini API)</strong> — receives food descriptions and meal photos
+      solely to generate macro estimates.</li>
+  <li><strong>Open Food Facts</strong> — when you look up a barcode, only the barcode
+      number is sent to this public food database. No account information is included.</li>
+</ul>
+<p>We do not sell your data, and we do not share it with advertisers or data brokers.</p>
+
+<h2>Notifications</h2>
+<p>Meal reminders are scheduled locally on your device. No reminder data leaves your
+phone, and you can turn them off in Settings or in iOS Settings at any time.</p>
+
+<h2>Data retention and deletion</h2>
+<p>Your data is kept while your account exists. To delete your account and everything
+associated with it, email
+<a href="mailto:eatstats.support@gmail.com">eatstats.support@gmail.com</a> from the
+address you signed up with, and we will remove it.</p>
+
+<h2>Children</h2>
+<p>EatStats is not directed at children under 13, and we do not knowingly collect
+information from them. Calorie targets are not calculated for ages under 13.</p>
+
+<h2>Security</h2>
+<p>Data is transmitted over encrypted connections. Each account can only read and write
+its own records, enforced at the database level. Your login session is stored in the
+iOS Keychain on your device.</p>
+
+<h2>Your choices</h2>
+<p>You can edit or delete individual food entries and saved foods in the app, change or
+clear your profile details in Settings, and request full account deletion by email.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes materially, the updated version will be posted here with a new
+date at the top.</p>
+
+<p><a href="index.html">&larr; Back to EatStats</a></p>
+</body>
+</html>
